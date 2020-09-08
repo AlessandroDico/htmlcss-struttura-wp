@@ -1,23 +1,24 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 header {
-    height: 50px;
+    /* height: 150px; */
     background-color: yellow;
     margin-bottom: 15px;
 }
 
-.container{
+.container {
     width: 90%;
     margin: auto;
+    margin-top: 50px;
 }
 
 main {
     width: 100%;
-    /* background-color: green; */
+    background-color: green;
 }
 
 .main-content::after {
@@ -26,29 +27,35 @@ main {
     clear: both;
 }
 
-.content{
+.content {
     float: left;
 }
 
-.aside-left{
-    height: 400px;
+.aside-left {
+    /* height: 400px; */
     width: 25%;
     background-color: pink;
 }
 
-.content-center{
-    height: 550px;
+.content-center {
+    /* height: 550px; */
     width: calc(50% - 40px);
     background-color: rebeccapurple;
     margin: 0 20px;
 }
 
-.aside-right, .aside-right-bottom{
-    height: 200px;
+.aside-right, .aside-right-bottom {
+    /* height: 250px; */
     width: 25%;
     background-color: pink;
 }
 
-.aside-right-bottom{
+.aside-right-bottom {
     margin-top: 30px;
+}
+
+footer {
+    /* height: 100px; */
+    background-color: lightblue;
+    margin-top: 15px;
 }
