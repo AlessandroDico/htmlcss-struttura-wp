@@ -4,21 +4,20 @@
     box-sizing: border-box;
 }
 
-header {
-    /* height: 150px; */
-    background-color: yellow;
-    margin-bottom: 15px;
-}
-
 .container {
     width: 90%;
     margin: auto;
     margin-top: 50px;
 }
 
+header {
+    height: 150px;
+    background-color: #d4d400;
+    margin-bottom: 15px;
+}
+
 main {
     width: 100%;
-    background-color: green;
 }
 
 .main-content::after {
@@ -32,22 +31,22 @@ main {
 }
 
 .aside-left {
-    /* height: 400px; */
+    height: 400px;
     width: 25%;
-    background-color: pink;
+    background-color: #800026;
 }
 
 .content-center {
-    /* height: 550px; */
+    height: 550px;
     width: calc(50% - 40px);
-    background-color: rebeccapurple;
+    background-color: #6a0088;
     margin: 0 20px;
 }
 
 .aside-right, .aside-right-bottom {
-    /* height: 250px; */
+    height: 250px;
     width: 25%;
-    background-color: pink;
+    background-color: #800026;
 }
 
 .aside-right-bottom {
@@ -55,7 +54,7 @@ main {
 }
 
 footer {
-    /* height: 100px; */
-    background-color: lightblue;
+    height: 100px;
+    background-color: #0090ad;
     margin-top: 15px;
 }
